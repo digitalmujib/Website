@@ -8,8 +8,8 @@ body{
 .main-div{
     text-align: center;
     margin: 10% auto;
-    height: 200%;
-    width: 30%;
+    height: 300px;
+    width: 350px;
     border: 2px solid black;
     padding: 20px;
     padding-bottom: 30px;
@@ -17,8 +17,20 @@ body{
     border-radius: 5px;
 }
 
+#main-div{
+    text-align: center;
+    margin: 10% auto;
+    height: 350px;
+    width: 360px;
+    border: 2px solid black;
+    padding: 20px;
+    padding-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.644);
+    border-radius: 5px;
+}
 .space{
     padding-bottom: 20px;
+    text-align: right;
 }
 .header{
     padding-bottom: 20px;
@@ -75,4 +87,9 @@ p,a{
 .log{
     padding-left: 6px;
     border: 1px solid black;
+}
+#inp{
+    border-radius: 10px;
+    padding: 2px;
+    color: black;
 }
