@@ -11,6 +11,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
 </head>
+<style>
+        #login{
+        color: rgb(151, 13, 151);
+        text-decoration: 2px underline solid rgb(151, 13, 151);
+    }
+</style>
 <body>
     <!-- <div class="loader"></div> -->
     <header>
@@ -21,7 +27,7 @@
             </div>  
             <ul class="nav_links">
                 <li><a href="">CONTACT US</a></li>
-                <li><a href="login.html">LOGIN</a></li>
+                <li><a href="login.html" id="login">LOGIN</a></li>
                 <li><a href="">SERVICES</a></li>
                 <li><a href="">TOOLS</a></li>
                 <li><a href="index.html">HOME</a></li>
@@ -29,7 +35,7 @@
         </nav>
     </header>
 
-    <div class="main-div">
+    <div id="main-div">
         <form action="">
             <h2 class="header">Registeration Form!</h2>
             <label for="Name">
@@ -37,22 +43,22 @@
                 <br><br>
 
                 <p class="space" id="align">Full Name: 
-                <input type="text" name = "name" placeholder="Enter Full name" required id="inp"></input>
+                <input type="text" name = "name" placeholder="  Enter Full name" required id="inp"></input>
                 </p>
             </label>    
             <label for="Email id" id="align">
             <p class="space">Email Id: 
-            <input type="Email" name = "Email" placeholder="abc@gmail.com" required id="inp"></input>
+            <input type="Email" name = "Email" placeholder="  abc@gmail.com" required id="inp"></input>
             </p>
         </label>    
         <label for="Password" id="align">
             <p class="space">Enter Password: 
-            <input type="password" name = "password" placeholder="Enter your password" required id="inp"></input>
+            <input type="password" name = "password" placeholder="  Enter your password" required id="inp"></input>
             </p>
         </label> 
         <label for="Password" id="align">
             <p class="space">Confirm Password: 
-            <input type="password" name = "password" placeholder="Confirm your password" required id="inp"></input>
+            <input type="password" name = "password" placeholder="  Confirm your password" required id="inp"></input>
             </p>
         </label>     
         
@@ -61,7 +67,7 @@
     <label>
     </label>
     <br>
-        <p>Already have an Account? <a href="login.html" class="log">Login!</a></p>
+        <p>Already have an Account?<a href="login.html" class="log">Login!</a></p>
     </form>
 </div>
     <br>
