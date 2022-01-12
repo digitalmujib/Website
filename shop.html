@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" >
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="custom.js"></script>
+<link rel="stylesheet" href="jquery.convform.css">
+<script src="jquery.convform.js"></script>
+<link rel="stylesheet" href="style.css">
+
+<style>
+    .shop_name{
+        color: rgb(151, 13, 151);
+        text-decoration: 2px underline solid rgb(151, 13, 151);;
+    }
+</style>
+</head>
+<body>
+    <div class="chat_icon">
+        <i class="fas fa-comments"></i>
+    </div>
+
+    <div class="chat_box">
+    <div class="conv-form-wrapper">
+    <form action="" method="GET" class="hidden">
+        <select name="programmer" data-conv-question="Hello! How can I help you?">
+            <option value="webDevelopment">Website Development?</option>
+            <option value="AppDevelopment">App Development?</option>
+        </select>
+        <div data-conv-fork="category">
+            <div data-conv-case="webDevelopment">
+                 <input type="text" name="domain_name" data-conv-question="Please, tell me your Domain name">
+            </div>
+            <div data-conv-case="AppDevelopment">
+                <input type="text" name="app_type" data-conv-question="Please tell me what type of App do you want?">
+           </div>
+
+           <div data-conv-case="AppDevelopment">
+            <input type="text" name="app_type" data-conv-question="Please tell me what type of App do you want?">
+       </div>
+
+            </div>
+           </div>
+        </form>
+         </div>
+        </div>
+   
+    
+    <header>
+        <nav>
+            <img src ="https://cdnwp-s3.benzinga.com/wp-content/uploads/2019/10/25200917/better.png" class="logo">
+                <a href="index.html" style="color: aliceblue; text-decoration: none;" id="logo_name">BETTER<i> reviews.com</i></a>
+                <div id="nav_links">
+                    <i class="fa fa-times" onclick = "hideMenu()" id="hide" style="display: none;"></i> 
+                    <ul class="nav_links" id="resp">
+                    <li><a href="index.html" class="main_nav_links a" id="home">HOME</a></li>
+                    <li class="a"><span class="toolservices">TOOLS +
+                        <ul class="t">
+                          <li><a href="">Hashtag Generator</a></li>
+                          <li><a href="read.html">Read Jokes</a></li>
+                        </ul>
+                    </li></span>
+                    <li class="a"><span class="toolservices">SERVICES +
+                        <ul class="s">
+                            <li><a href="">Web Development</a></li>
+                            <li><a href="">Android App Development</a></li>
+                            <li><a href="">IOS App Development</a></li>
+                        </ul></li></span>
+                    <li><a href="" class="main_nav_links a" id="conct">CONTACT US</a></li>
+
+                    <a href="" class="shop-img"><span style="font-family: 'Fuzzy Bubbles', cursive; font-size: 19px;" class="shop_name">Shop</span><img class="shop_logo" src="https://th.bing.com/th/id/R.984e6c563e1b12f4849dbdd29af55429?rik=%2bhkYGvcqrY3OcQ&riu=http%3a%2f%2fwww.iconninja.com%2ffiles%2f609%2f434%2f345%2fbuy-shopping-commerce-cart-shopping-cart-icon.png&ehk=Yc3Nd2e21eQO1ugCXrBy6geJNsz9PacBnmhEq9Y19E4%3d&risl=&pid=ImgRaw&r=0" alt=""></a>
+                    <li><a href="login.html"  style="margin-left: 1%; margin-right: 2%; padding: 15px;"> <span id="login-nav" class="a">LOGIN</span></a></li>
+                    </ul>
+                    <i class="fa fa-bars" onclick = "showMenu()" id="show"></i>
+                </div>
+             
+        </nav>
+    </header>
+</body>
+</html>

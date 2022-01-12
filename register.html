@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style_forms.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
+</head>
+<style>
+        #login{
+        color: rgb(151, 13, 151);
+        text-decoration: 2px underline solid rgb(151, 13, 151);
+    }
+</style>
+<body>
+    <!-- <div class="loader"></div> -->
+    <header>
+        <nav>
+            <img src ="https://cdnwp-s3.benzinga.com/wp-content/uploads/2019/10/25200917/better.png" class="logo">
+                <a href="index.html" style="color: aliceblue; text-decoration: none;" id="logo_name">BETTER<i> reviews.com</i></a>
+                <div id="nav_links">
+                    <i class="fa fa-times" onclick = "hideMenu()" id="hide" style="display: none;"></i> 
+                    <ul class="nav_links" id="resp">
+                    <li><a href="index.html" class="main_nav_links a" id="home">HOME</a></li>
+                    <li><span class="toolservices">TOOLS +
+                        <ul class="t" style="width: 175px;">
+                          <li><a href="">Hashtag Generator</a></li>
+                          <li><a href="read.html">Read Jokes</a></li>
+                        </ul>
+                    </li></span>
+                    <li><span class="toolservices">SERVICES +
+                        <ul class="t"  style="width: 230px;">
+                            <li><a href="">Web Development</a></li>
+                            <li><a href="">Android App Development</a></li>
+                            <li><a href="">IOS App Development</a></li>
+                        </ul></li></span>
+                    <li><a href="" class="main_nav_links a" id="conct">CONTACT US</a></li>
+
+                    <a href="" class="shop-img"><span class="a"style="font-family: 'Fuzzy Bubbles', cursive; font-size: 19px;" class="shop-name">Shop</span><img class="shop_logo" src="https://th.bing.com/th/id/R.984e6c563e1b12f4849dbdd29af55429?rik=%2bhkYGvcqrY3OcQ&riu=http%3a%2f%2fwww.iconninja.com%2ffiles%2f609%2f434%2f345%2fbuy-shopping-commerce-cart-shopping-cart-icon.png&ehk=Yc3Nd2e21eQO1ugCXrBy6geJNsz9PacBnmhEq9Y19E4%3d&risl=&pid=ImgRaw&r=0" alt=""></a>
+                    <li><a href="login.html"  style="margin-left: 1%; margin-right: 2%; padding: 15px;"> <span id="login-nav" class="a">LOGIN</span></a></li>
+                    </ul>
+                    <i class="fa fa-bars" onclick = "showMenu()" id="show"></i>
+                </div>
+             
+        </nav>
+    </header>
+    <div id="main-div">
+        <form action="">
+            <h2 class="header">Registeration Form!</h2>
+            <label for="Name">
+                <br>
+                <br><br>
+
+                <p class="space" id="align">Full Name: 
+                <input type="text" name = "name" placeholder="  Enter Full name" required id="inp"></input>
+                </p>
+            </label>    
+            <label for="Email id" id="align">
+            <p class="space">Email Id: 
+            <input type="Email" name = "Email" placeholder="  abc@gmail.com" required id="inp"></input>
+            </p>
+        </label>    
+        <label for="Password" id="align">
+            <p class="space">Enter Password: 
+            <input type="password" name = "password" placeholder="  Enter your password" required id="inp"></input>
+            </p>
+        </label> 
+        <label for="Password" id="align">
+            <p class="space">Confirm Password: 
+            <input type="password" name = "password" placeholder="  Confirm your password" required id="inp"></input>
+            </p>
+        </label>     
+        
+        <button type="register">Register</button>
+        <br>
+    <label>
+    </label>
+    <br>
+        <p>Already have an Account?<a href="login.html" class="log">Login!</a></p>
+    </form>
+</div>
+    <br>
+    <footer class="footer">
+        <p style="font-family:  'Dongle', sans-serif; padding-bottom: 10px; color: rgba(255, 255, 255, 0.801); font-size: 25px; text-align: center;">©Better<i>reviews.com</i></p>
+        <hr style="background-color: rgba(255, 255, 255, 0.308);">
+         <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Home</h4>
+                    <ul>
+                        <li><a href="index.html">About Us</a></li>
+                        <li><a href="index.html"></a></li>
+                        <li><a href="index.html"></a></li>
+                        <li><a href="index.html"></a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Tools</h4>
+                    <ul>
+                        <li><a href="">Read Jokes</a></li>
+                        <li><a href="">#Hashtag Generator</a></li>
+                        <li><a href="https://linktr.ee/numerology29">Shop</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="">Web development</a></li>
+                        <li><a href="">Software development</a></li>
+                        <li><a href="">Android development</a></li>
+                    </ul>
+                </div>
+        
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script>
+            var navLinks = document.getElementById("resp");
+            var hide = document.getElementById("hide");
+            var show = document.getElementById("show");
+    
+            function showMenu(){
+                navLinks.style.right = "0px";
+                hide.style.display = "block";
+                show.style.display = "none";
+               
+            }
+    
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+                hide.style.display = "none";
+                show.style.display = "block";
+            }
+    
+        </script>
+</body>
+</html>

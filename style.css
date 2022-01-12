@@ -1,0 +1,547 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    list-style: none;
+}
+header{
+    top: 0%;
+    position: fixed;
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 1) , rgba(0, 0, 0, 0.747));
+}
+
+.logo{
+    width: 90px;
+    height: 50px;
+    float: left;
+    padding: 10px 8px 10px 8px;
+    margin-left: 15px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+#logo_name{
+    padding-top: 7px;
+    float: left;
+    color: rgb(255, 255, 255);
+    padding-left: 12px;
+    font-family: 'Dongle', sans-serif;
+    font-size: 40px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.logo_name:hover{
+    color: rgb(151, 13, 151);
+    transition: 0.6s ease;
+}
+
+.nav_links{
+        float: right;
+}
+.nav_links a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 8px;
+    font-family: 'Dongle', sans-serif;
+    font-size: 28px;
+}
+
+.toolservices{
+    text-decoration: none;
+    color: white;
+    padding: 14px 8px;
+    font-family: 'Dongle', sans-serif;
+    font-size: 28px;
+    cursor: pointer;
+
+}
+
+
+.nav_links,ul,li,a{
+    display: inline-block;
+}
+
+
+.main_nav_links:hover{
+    color: rgb(151, 13, 151);
+    transition: 0.6s ease;
+    text-decoration: 2px underline solid rgb(151, 13, 151);
+}
+
+.loader{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: white url('https://cdn.dribbble.com/users/108183/screenshots/2301400/media/f31dc8914e868107b8356de2f2cdb55f.gif') no-repeat center;
+    z-index: 99999;
+    
+}
+
+.blog{
+    width: 95%;
+    height: 100%;
+    margin: 20px auto 10px;
+    
+}
+
+.header1{     
+    padding-top: 6%;
+    font-family: 'Dongle', sans-serif;
+    font-size: 32px;
+}
+
+.para{
+    padding: 12px 20px 20px 15px;
+    font-family: 'Dongle', sans-serif;
+    font-size: 28px;
+}
+
+.hr{
+    background:purple;
+}
+
+.img1{
+    
+    width: 55%; 
+    height: 35%; 
+    margin: 18px auto;
+    display: block;
+}
+
+.img1:hover{
+    transition: 0.5s ease;
+    cursor: pointer;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.7);
+}
+
+
+.footer-col ul li a{
+    font-family: 'Dongle', sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    color: rgba(130, 18, 241, 0.562);
+    list-style: none;
+}
+
+.footer-col ul li a:hover{
+    font-size: 25px;
+    color: rgba(127, 7, 247, 0.801);
+}
+
+.footer-col h4{
+    font-family: 'Dongle', sans-serif;
+    font-size: 26px;
+    color: white;
+}
+
+.footer-col h4:hover{
+    font-family: 'Dongle', sans-serif;
+    font-size: 26px;
+    color: rgba(255, 255, 255, 0.808);
+    cursor: pointer;
+}
+
+.container{
+    max-width: 100%;
+    padding: 30px 50px;
+}
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.986);
+    box-sizing: border-box; 
+    padding: 14px 20px ;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    width: 20%;
+    padding: 4px 10px;
+}
+
+.footer-col:first-child{
+    margin-left: 40px;
+}
+
+.img{
+    margin: 0px auto;
+}
+
+.next_page{
+    text-align: center;
+}
+
+.next_page,a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.fn{
+    /* border: 1px solid rgba(0, 0, 0, 0.048); */
+    background-color: rgb(250, 245, 245);
+    border-radius: 4px;
+    padding: 4px;
+    box-shadow: 0px 1.5px 1px 0px rgba(0, 0, 0, 0.562);
+}
+
+.shop_logo{
+    height: 22px;
+    width: 22px;
+    float: left;
+    padding: 6px 6px 0px 0px;
+}
+
+/* ul,li:first-child{
+    margin-right: 10%; 
+}
+*/
+
+#login-nav{
+    background-color: rgb(255, 255, 255);
+    padding: 0 18px;
+    color: black;
+    border-radius: 15px;
+    font-size: 23px;
+    font-weight: 550;
+    transition: 0.3s;
+}
+
+#login-nav:hover{
+    background-color: rgba(250, 240, 240, 0.884);
+}
+
+.shop-name :hover{
+  color: rgb(211, 7, 211);
+  transition: 0.4s;
+}
+
+nav .fa{
+    display: none;
+}
+
+.a{
+    padding-left: 1px; margin-top: 1px;
+}
+#header2{
+    padding-top: 0px;
+}
+
+.option-head{
+    font-family: 'Dongle', sans-serif;
+    font-size: 28px;
+    margin-top: 15px;
+}
+
+.small-img{
+    float: left;
+    font-family: 'Dongle', sans-serif;
+    font-size: 25px;
+    margin: 10px 0px;
+}
+
+.home-img{
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#read-more{
+    padding: 5px;
+    font-family: 'Dongle', sans-serif;
+    color: rgb(151, 13, 151);
+    text-decoration: underline;
+    font-size: 26px;
+}
+
+header .toolservices ul{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.836);
+    margin-top: 14px;
+    display: block;
+    display: none;
+}
+
+header .toolservices ul li{
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.123);
+}
+
+header .toolservices:hover >ul{
+    display: initial;
+    display: block;
+}
+
+.ts{
+    display: block;
+}
+
+header .toolservices ul li a:hover{
+    color: rgba(255, 255, 255, 0.753);
+}
+
+.shop_name:hover{
+    color: rgba(211, 7, 211, 0.795);
+    transition: 0.3s;
+}
+
+.t{
+    width: 175px;
+}
+
+.s{
+    width: 240px;
+}
+
+.chat_icon{
+    position: fixed;
+    right: 30px;
+    bottom: 0;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.chat_box{
+    position: fixed;
+    right: 20px;
+    bottom: 100px;
+    width: 400px;
+    height: 80vh;
+    background-color: #dedede;
+    z-index: 1000;
+    transition: all 0.3s ease-out;
+    transform: scaleY(0);
+}
+
+.chat_box.active{
+    transform: scaleY(1)
+}
+
+.hidden{
+    display: none !important;
+}
+
+.conv-form-wrapper textarea{
+    height: 10px;
+    overflow: hidden;
+    resize: none;
+}
+
+#messages{
+    padding: 20px;
+}
+
+@media(max-width: 980px){
+    .nav_links{
+        position: absolute;
+        background-color: #f4433600;
+        height: 350px;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        z-index: 2;
+        transition: 1s;
+        display: block;
+    }
+    nav .fa{
+        display: block;
+        color: white;
+        margin: 20px;
+        margin-top: 20px;
+        margin-right: 15px;
+        font-size: 22px;
+        cursor: pointer;
+        float: right;
+    }
+    #resp{
+        margin-top: 70px;
+        background-color: rgba(0, 0, 0, 0.9);
+    } 
+
+    .nav_links a:first-child{
+        margin-top: 10px;
+    }
+
+    #conct{
+        margin-bottom: 10px;
+    }
+    .nav_links a{
+        display: block;
+        font-size: 26x;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .nav_links,ul,li,a{
+         text-align: center;
+    }
+    #login-nav{
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 20px;
+    }
+    .a{
+        margin-right: 23px;
+    }
+
+    #header1{
+        margin-top: 55px;
+    }
+
+    .shop_logo{
+        margin-left: 20px;
+    }
+    .logo{
+        margin-top: 4px;
+        width: 80px;
+        height: 40px;
+        margin-left: 5px;
+    }
+    .header1{
+        padding-top: 30px;
+        font-size: 25px;
+        line-height: 1em;
+        margin-left: 2px;
+    }
+    .para{
+        font-size: 23px;
+        font-family: 'Dongle', sans-serif;
+        line-height: 1.2em;
+    }
+    .img1{
+        width: 70%;
+        height: 40%;
+    }
+    #header2{
+        padding-top: 0px;
+    }
+    #logo_name{
+        float: left;
+        color: rgb(255, 255, 255);
+        padding-left: 5px;
+        font-family: 'Dongle', sans-serif;
+        font-size: 30px;
+        cursor: pointer;
+        text-decoration: none;
+        margin-top: 7px;
+    }
+    .home-img{
+        width: 240px;
+        height: 170px;
+        border-radius: 5px;
+        border: 1px solid black;
+        display: block;
+        margin: 0px auto;
+    }
+    .small-img{
+        padding: 10px;
+    }
+
+
+    header .toolservices ul{
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.836);
+        display: none;
+    }
+    
+    header .toolservices ul li{
+        width: 100%;
+        border-top: 1px solid rgba(255, 255, 255, 0.123);
+    }
+    
+    header .toolservices:hover >ul{
+        display: initial;
+        display: block;
+    }
+    
+    header .toolservices ul li a:hover{
+        color: rgba(211, 7, 211, 0.774);
+    }
+    header ul li{
+        display: block;
+    }
+
+    header .toolservices ul li a{
+        font-size: 24px;
+        line-height: 1.6em;
+        width: 100%;
+        text-align: left;
+        margin-left: 13px;
+    }
+    .toolservices{
+        margin-left: 15px;
+    }
+
+    .t{
+        width: 200px;
+        top: 80px;
+    }
+    .s{
+        width: 200px;
+        top: 130px;
+    }
+
+    .toolservices{
+        text-decoration: none;
+        color: white;
+        font-family: 'Dongle', sans-serif;
+        font-size: 28px;
+        cursor: pointer;
+    }
+    .a{
+        margin: 8px 0;
+    }
+    
+    .shop_name{
+        margin-right: 20px;
+    }
+}
+
+@media(max-width: 380px){
+    .logo_name{
+        float: left;
+        color: rgb(255, 255, 255);
+        padding-top: 8px;
+        padding-left: 2px;
+        font-family: 'Dongle', sans-serif;
+        font-size: 28px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+}
+
+@media(max-width: 320px){
+    #logo_name{
+        float: left;
+        color: rgb(255, 255, 255);
+        margin-top: 10px;
+        padding-left: 2px;
+        font-family: 'Dongle', sans-serif;
+        font-size: 21px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .logo{
+        margin-top: 8px;
+        width: 60px;
+        height: 30px;
+        padding-left: 0px;
+        margin-left: 3pxx;
+    }
+    .small-img{
+        padding: 10px;
+    }
+}
